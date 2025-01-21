@@ -1,0 +1,6 @@
+api\codesoft\com\masmovil\controller\LeadController.class
+api\codesoft\com\masmovil\model\Lead.class
+api\codesoft\com\masmovil\MasmovilApplication.class
+api\codesoft\com\masmovil\MasmovilApplication$1.class
+api\codesoft\com\masmovil\repository\LeadRepository.class
+api\codesoft\com\masmovil\service\LeadService.class
