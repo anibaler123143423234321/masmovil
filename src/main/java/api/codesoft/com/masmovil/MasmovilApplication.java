@@ -27,7 +27,8 @@ public class MasmovilApplication {
 				registry.addMapping("/**")
 						.allowedOrigins(
 								"https://fibramoviltotal.es",
-								"https://fibramoviltotal.com"
+								"https://fibramoviltotal.com",
+								"http://localhost:4321"
 						)
 						.allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Métodos permitidos
 						.allowedHeaders("*") // Permitir todos los encabezados
