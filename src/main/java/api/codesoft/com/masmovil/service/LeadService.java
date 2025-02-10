@@ -10,6 +10,7 @@ import java.util.List;
 @Service
 public class LeadService {
 
+
     private final LeadRepository leadRepository;
 
     public LeadService(LeadRepository leadRepository) {
@@ -24,4 +25,6 @@ public class LeadService {
     public List<Lead> findAllLeads() {
         return leadRepository.findAll();
     }
+
+
 }

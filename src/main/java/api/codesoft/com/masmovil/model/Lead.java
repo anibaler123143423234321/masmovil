@@ -20,6 +20,7 @@ import java.time.LocalDateTime;
 @Table(name = "lead")
 public class Lead implements Serializable {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -84,4 +85,13 @@ public class Lead implements Serializable {
                 ", campaignId='" + campaignId + '\'' +
                 '}';
     }
+
+    public LocalDateTime getFechaCreacion() {
+        return fechaCreacion;
+    }
+
+    public void setFechaCreacion(LocalDateTime fechaCreacion) {
+        this.fechaCreacion = fechaCreacion;
+    }
+
 }
