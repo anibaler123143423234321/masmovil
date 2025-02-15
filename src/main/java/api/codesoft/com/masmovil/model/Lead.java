@@ -20,6 +20,53 @@ import java.time.LocalDateTime;
 @Table(name = "lead")
 public class Lead implements Serializable {
 
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getCampaignId() {
+        return campaignId;
+    }
+
+    public void setCampaignId(String campaignId) {
+        this.campaignId = campaignId;
+    }
+
+    public String getProductOrder() {
+        return productOrder;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getSegment() {
+        return segment;
+    }
+
+    public void setSegment(String segment) {
+        this.segment = segment;
+    }
+
+    public String getOperator() {
+        return operator;
+    }
+
+    public void setOperator(String operator) {
+        this.operator = operator;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
